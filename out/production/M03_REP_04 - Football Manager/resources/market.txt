@@ -1,9 +1,0 @@
-José:Mourinho:26 de enero de 1963:10000000:5.0:25:false;
-Pep:Guardiola:18 de enero de 1971:12000000:5.0:7:false;
-Diego:Simeone:28 de abril de 1970:15000000:5.0:7:false;
-Antonio:Conte:31 de julio de 1969:15000000:5.0:8:false;
-Simone:Inzaghi:5 de abril de 1976:12000000:5.0:1:false;
-Kevin:De Bruyne:28 de junio de 1991:60000000:5.0:17:MID:92.0:true;
-Lionel:Messi:24 de junio de 1987:80000000:5.0:10:FWD:95.0:true;
-Mohamed:Salah:15 de junio de 1992:80000000:5.0:11:FWD:91.0:true;
-Virgil:van Dijk:8 de julio de 1991:70000000:5.0:3:DEF:88.0:true;
