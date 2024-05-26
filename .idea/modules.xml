@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/M03-Programacio.iml" filepath="$PROJECT_DIR$/.idea/M03-Programacio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_01 - Virtual Pet/M03_REP_01 - Virtual Pet.iml" filepath="$PROJECT_DIR$/M03_REP_01 - Virtual Pet/M03_REP_01 - Virtual Pet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_01 - Virtual Pet v2/M03_REP_01 - Virtual Pet v2.iml" filepath="$PROJECT_DIR$/M03_REP_01 - Virtual Pet v2/M03_REP_01 - Virtual Pet v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_02 - El Penjat/M03_REP_02 - El Penjat.iml" filepath="$PROJECT_DIR$/M03_REP_02 - El Penjat/M03_REP_02 - El Penjat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_03 - The Quiz/M03_REP_03 - The Quiz.iml" filepath="$PROJECT_DIR$/M03_REP_03 - The Quiz/M03_REP_03 - The Quiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_04 - Football Manager/M03_REP_04 - Football Manager.iml" filepath="$PROJECT_DIR$/M03_REP_04 - Football Manager/M03_REP_04 - Football Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03_REP_06 - Joc de rol/M03_REP_06 - Joc de rol.iml" filepath="$PROJECT_DIR$/M03_REP_06 - Joc de rol/M03_REP_06 - Joc de rol.iml" />
+    </modules>
+  </component>
+</project>

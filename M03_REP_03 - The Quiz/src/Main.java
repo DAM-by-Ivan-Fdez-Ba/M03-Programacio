@@ -19,7 +19,7 @@ public class Main {
     // Declaracion de valores
     private static final String quizName = "PREGUNTATRES";
     private static final int numOfCategories = 6;
-    private static final String playerName = "ivan";
+    private static final String playerName = introducePlayerName();
     private static final String redColor = "\u001B[31m";
     private static final String greenColor = "\u001B[32m";
     private static final String blueColor = "\u001B[34m";
@@ -249,7 +249,7 @@ public class Main {
      * @param correctAnswers number of correct answers.
      * @param totalQuestions total number of questions.
      */
-    private static float printResultWithPercentage(int correctAnswers, int totalQuestions){
+    private static void printResultWithPercentage(int correctAnswers, int totalQuestions){
         float hitPercentage = (float) (correctAnswers * 100 / totalQuestions);
 
         String formattedPercentage = String.format("%.2f", hitPercentage);
@@ -265,19 +265,6 @@ public class Main {
         }else {
             System.out.println("Awesome! You've answered all the questions correctly " + formattedPercentage + "! You're an expert at this!");
         }
-
-        return hitPercentage;
-    }
-
-    /**
-     * testPrintResultWithPercentage
-     *
-     * This function calculates the hit percentage and prints a customised message depending on the hit percentage value.
-     * @param correctAnswers number of correct answers.
-     * @param totalQuestions total number of questions.
-     */
-    public static float testPrintResultWithPercentage(int correctAnswers, int totalQuestions){
-        return printResultWithPercentage(correctAnswers, totalQuestions);
     }
 
     /**
@@ -305,7 +292,6 @@ public class Main {
      * @param order order in which the answers should be printed.
      * @param option option selected by the player.
      * @param question two-dimensional array of questions and answers.
-     *
      */
     private static void visualAnswer(int [] order, char option, String[] question) {
         String color = checkAnswer(order, option) ? greenColor : redColor;
@@ -317,7 +303,6 @@ public class Main {
                 System.out.println(color + "a) " + question[order[0]] + resetColor);
                 System.out.println("b) " + question[order[1]]);
                 System.out.println("c) " + question[order[2]]);
-                System.out.println("d) " + question[order[3]]);
                 System.out.println("d) " + question[order[3]]);
                 break;
             case 'b':
@@ -375,19 +360,6 @@ public class Main {
                 break;
         }
         return correct;
-    }
-
-
-    /**
-     * testCheckAnswer
-     *
-     * This function checks if the player's option is correct and returns a boolean.
-     * @param order order of the answers.
-     * @param option player's choice.
-     * @return if the answer is correct.
-     */
-    public static boolean testCheckAnswer(int[] order, char option){
-        return checkAnswer(order, option);
     }
 
     /**

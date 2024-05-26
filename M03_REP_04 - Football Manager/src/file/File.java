@@ -22,7 +22,7 @@ import java.util.Scanner;
 public class File {
     public static String getAddress(){
         Scanner sc = new Scanner(System.in);
-        String address = "src/resources/";
+        String address = "../resources/";
 
         System.out.println("Enter the name of the file.");
         address += sc.next();
